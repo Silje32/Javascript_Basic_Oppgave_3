@@ -84,9 +84,15 @@ const people = [
 let combinedAge = 0;
 
 // Skriv koden for oppgave 1 her
-
 let averageAge = 0;
 
+// for loop for iterating through people array
+for (let i = 0; i < people.length; i++)  {
+    if (people[i].name === "Otto") {
+        continue; // Skip Otto
+    }
+    console.log(averageAge);  
+}
 /******************************************************************************
 2.
 
