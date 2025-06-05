@@ -1,4 +1,5 @@
-1.
+/**************************************************************************************
+   1.
 
 Bruk en vanlig 'for-løkke' til å iterere gjennom `people`-arrayet og utfør følgende:
 
@@ -32,54 +33,54 @@ Gjør beregningene ETTER at du legger til to år på alderen, og husk, hopp over
 const cities = ["New York", "London", "Paris", "Berlin", "Copenhagen", "Rome"];
 
 const people = [
-	{
-		name: "Thomas",
-		male: true,
-		age: 23,
-		hobbies: ["cycling", "football", "pool"]
-	},
-	{
-		name: "Susan",
-		male: false,
-		age: 26,
-		hobbies: ["jogging", "travelling", "dancing"]
-	},
-	{
-		name: "Monica",
-		male: false,
-		age: 21,
-		hobbies: ["skateboarding", "guitar", "concerts"]
-	},
-	{
-		name: "Avery",
-		male: true,
-		age: 28,
-		hobbies: ["writing", "games", "memes"]
-	},
-	{
-		name: "Phillip",
-		male: true,
-		age: 24,
-		hobbies: ["boxing", "wrestling", "mma"]
-	},
-	{
-		name: "Otto",
-		male: true,
-		age: 36,
-		hobbies: ["movies", "cinema", "music"]
-	},
-	{
-		name: "Annabelle",
-		male: false,
-		age: 30,
-		hobbies: ["makeup", "fashion", "shopping"]
-	},
-	{
-		name: "Cathy",
-		male: false,
-		age: 18,
-		hobbies: ["design", "drawing", "css"]
-	}
+  {
+    name: "Thomas",
+    male: true,
+    age: 23,
+    hobbies: ["cycling", "football", "pool"],
+  },
+  {
+    name: "Susan",
+    male: false,
+    age: 26,
+    hobbies: ["jogging", "travelling", "dancing"],
+  },
+  {
+    name: "Monica",
+    male: false,
+    age: 21,
+    hobbies: ["skateboarding", "guitar", "concerts"],
+  },
+  {
+    name: "Avery",
+    male: true,
+    age: 28,
+    hobbies: ["writing", "games", "memes"],
+  },
+  {
+    name: "Phillip",
+    male: true,
+    age: 24,
+    hobbies: ["boxing", "wrestling", "mma"],
+  },
+  {
+    name: "Otto",
+    male: true,
+    age: 36,
+    hobbies: ["movies", "cinema", "music"],
+  },
+  {
+    name: "Annabelle",
+    male: false,
+    age: 30,
+    hobbies: ["makeup", "fashion", "shopping"],
+  },
+  {
+    name: "Cathy",
+    male: false,
+    age: 18,
+    hobbies: ["design", "drawing", "css"],
+  },
 ];
 let combinedAge = 0;
 
@@ -87,11 +88,11 @@ let combinedAge = 0;
 let averageAge = 0;
 
 // for loop for iterating through people array
-for (let i = 0; i < people.length; i++)  {
-    if (people[i].name === "Otto") {
-        continue; // Skip Otto
-    }
-    console.log(averageAge);  
+for (let i = 0; i < people.length; i++) {
+  if (people[i].name === "Otto") {
+    continue; // Skip Otto
+  }
+  console.log(averageAge);
 }
 /******************************************************************************
 2.
@@ -168,7 +169,7 @@ skal returnere "whao is ohe ptino tf ohis?"
 ******************************************************************************/
 
 function doubleSwap(string, charA, charB) {
-	// Skriv koden for oppgave 4 her
+  // Skriv koden for oppgave 4 her
 }
 
 /******************************************************************************
@@ -210,7 +211,7 @@ const greetings = [
   "Hva er regex?",
   "Nos saludamos con un alegre hola.",
   "Ona pomachała i powiedziała cześć z uśmiechem.",
-  "Good afternoon gentlemen!"
+  "Good afternoon gentlemen!",
 ];
 
 // Skriv koden for oppgave 5 her
