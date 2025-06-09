@@ -140,10 +140,12 @@ diceRoller(5, 20) skal returnere et array med 5 tilfeldige tall fra 1-20.
 
 // Skriv koden for oppgave 2 her
 
-function diceRoller(6, randomNum) {
+/* function diceRoller(6, randomNum) {
+if (typeof randomNum !== "number" || randomNum <= 0) {
 
 }
-return;
+}
+return;*/
 /******************************************************************************
 3.
 
