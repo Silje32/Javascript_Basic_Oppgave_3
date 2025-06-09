@@ -101,10 +101,10 @@ for (let i = 0; i < people.length; i++) {
   people[i].city = cities[Math.floor(Math.random() * cities.length)];
   // Add a new key "title"
   people.title = "Mr || Ms";
-  if (people.title === people.male) {
-    console.log("people.title");
+  if (people.title === true) {
+    console.log("Mr");
   } else {
-    console.log("people.title");
+    console.log("Ms");
   }
   // Increase age by 2
   combinedAge += people[i].age + 2;
