@@ -83,6 +83,7 @@ const people = [
   },
 ];
 console.log(people);
+console.log(cities);
 
 let combinedAge = 0;
 
