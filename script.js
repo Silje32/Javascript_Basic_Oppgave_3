@@ -83,16 +83,13 @@ const people = [
   },
 ];
 
-// The whole people array.
-console.log(people);
-
 // The whole cities array.
 console.log(cities);
 
 let combinedAge = 0;
 
 // Skriv koden for oppgave 1 her
-let averageAge = 0;
+let averageAge = 2;
 
 // for loop for iterating through people array
 for (let i = 0; i < people.length; i++) {
@@ -102,15 +99,21 @@ for (let i = 0; i < people.length; i++) {
   // Add a new key "city".
   people.city = "cities";
   people[i].city = cities[Math.floor(Math.random() * cities.length)];
+  // Add a new key "title"
   people.title = "Mr || Ms";
   if (people.title === people.male) {
     console.log("people.title");
   } else {
     console.log("people.title");
   }
-}
 
-// console.log(averageAge);
+  //Add a new key "coding" to the people arrayet.
+  people.hobbies = "coding";
+}
+// The whole people array.
+console.log(people);
+
+console.log(averageAge);
 
 /******************************************************************************
 2.
