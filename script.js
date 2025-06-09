@@ -82,6 +82,8 @@ const people = [
     hobbies: ["design", "drawing", "css"],
   },
 ];
+console.log(people);
+
 let combinedAge = 0;
 
 // Skriv koden for oppgave 1 her
@@ -92,11 +94,19 @@ for (let i = 0; i < people.length; i++) {
   if (people[i].name === "Otto") {
     continue; // Skip Otto
   }
-  console.log(averageAge);
+  // Add a new key "city".
+  people.city = "cities";
+  people[i].city = cities[Math.floor(Math.random() * cities.length)];
+  people.title = "Mr || Ms";
+  if (people.title === people.male) {
+    console.log("people.title");
+  } else {
+    console.log("people.title");
+  }
 }
 
-// Add a new key "city".
-people.city = cities[Math.floor(Math.random())];
+// console.log(averageAge);
+
 /******************************************************************************
 2.
 
