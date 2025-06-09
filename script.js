@@ -94,6 +94,9 @@ for (let i = 0; i < people.length; i++) {
   }
   console.log(averageAge);
 }
+
+// Add a new key "city".
+people.city = cities[Math.floor(Math.random())];
 /******************************************************************************
 2.
 
