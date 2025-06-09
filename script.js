@@ -214,6 +214,9 @@ function doubleSwap(string, charA, charB) {
   // Skriv koden for oppgave 4 her
 }
 
+// Calling the function
+console.log(doubleSwap("this is a string", "i", "s"));
+
 /******************************************************************************
 5.
 
