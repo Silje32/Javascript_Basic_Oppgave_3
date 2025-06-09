@@ -179,7 +179,10 @@ function myString([]) {
     // Always console.log to check that it works.
     console.log(word);
   }
+    //.split() method to split the string into an array of words.
+    myString === myString.split(" ")text.trim().toLowerCases;
 }
+
 console.log(myString("this text needs to be cleaned up")); */
 
 /******************************************************************************
