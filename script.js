@@ -82,7 +82,11 @@ const people = [
     hobbies: ["design", "drawing", "css"],
   },
 ];
+
+// The whole people array.
 console.log(people);
+
+// The whole cities array.
 console.log(cities);
 
 let combinedAge = 0;
