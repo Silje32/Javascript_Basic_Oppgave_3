@@ -173,13 +173,14 @@ skal returnere:
 
 // Skriv koden for oppgave 3 her
 
+/*
 function myString([]) {
   for (let word of myString) {
     // Always console.log to check that it works.
     console.log(word);
   }
 }
-console.log(myString("this text needs to be cleaned up"));
+console.log(myString("this text needs to be cleaned up")); */
 
 /******************************************************************************
 4.
