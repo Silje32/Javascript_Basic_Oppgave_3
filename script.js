@@ -89,7 +89,7 @@ console.log(cities);
 let combinedAge = 0;
 
 // Skriv koden for oppgave 1 her
-let averageAge = 2;
+let averageAge = 0;
 
 // for loop for iterating through people array
 for (let i = 0; i < people.length; i++) {
@@ -106,6 +106,9 @@ for (let i = 0; i < people.length; i++) {
   } else {
     console.log("people.title");
   }
+  // Increase age by 2
+  combinedAge += people[i].age + 2;
+  averageAge = combinedAge;
 
   //Add a new key "coding" to the people arrayet.
   people.hobbies = "coding";
