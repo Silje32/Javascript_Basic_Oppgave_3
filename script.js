@@ -179,12 +179,14 @@ skal returnere:
 
 // Skriv koden for oppgave 3 her
 
-function myString(string) {
-  for (let word of myString) {
+function myString(words) {
+  for (let word of words) {
     // Always console.log to check that it works.
     console.log(word);
-    //.split() method to split the string into an array of words.
-    let myString = myString.split(" ").trim().toLowerCases();
+    if (words.lenght === word) {
+      //.split() method to split the string into an array of words.
+      myString.split(" ").trim().toLowerCases();
+    }
   }
 }
 
