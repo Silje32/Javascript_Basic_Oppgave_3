@@ -100,7 +100,7 @@ for (let i = 0; i < people.length; i++) {
   people.city = "cities";
   people[i].city = cities[Math.floor(Math.random() * cities.length)];
   // Add a new key "title"
-  people.title = "Mr || Ms";
+  people[i].title = "Mr || Ms";
   if (people.title === true) {
     console.log("Mr");
   } else {
@@ -111,7 +111,7 @@ for (let i = 0; i < people.length; i++) {
   averageAge = combinedAge;
 
   //Add a new key "coding" to the people arrayet.
-  people.hobbies = "coding";
+  people[i].hobbies.unshift("coding");
 }
 // The whole people array.
 console.log(people);
@@ -139,13 +139,19 @@ diceRoller(5, 20) skal returnere et array med 5 tilfeldige tall fra 1-20.
 ******************************************************************************/
 
 // Skriv koden for oppgave 2 her
-
-/* function diceRoller(6, randomNum) {
-if (typeof randomNum !== "number" || randomNum <= 0) {
-
+function diceRoller(rolls, sides = 6) {
+  const results = [];
+  for (let i = 0; i < rolls; i++) {
+    // Generate a random number between 1 and the number of sides
+    const randomNumber = Math.floor(Math.random() * sides) + 1;
+    results.push(randomNumber);
+  }
+  return results;
 }
-}
-return;*/
+
+// Calling the function
+console.log(diceRoller(4, 6));
+
 /******************************************************************************
 3.
 
