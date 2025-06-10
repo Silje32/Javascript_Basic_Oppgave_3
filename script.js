@@ -179,17 +179,17 @@ skal returnere:
 
 // Skriv koden for oppgave 3 her
 
-/*
-function myString([]) {
+function myString(string) {
   for (let word of myString) {
     // Always console.log to check that it works.
     console.log(word);
-  }
     //.split() method to split the string into an array of words.
-    myString === myString.split(" ")text.trim().toLowerCases;
+    let myString = myString.split(" ").trim().toLowerCases();
+  }
 }
 
-console.log(myString("this text needs to be cleaned up")); */
+// Calling the function
+console.log(myString("this text needs to be cleaned up"));
 
 /******************************************************************************
 4.
